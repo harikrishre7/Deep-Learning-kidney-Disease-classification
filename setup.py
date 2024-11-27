@@ -1,12 +1,12 @@
 import setuptools
 
-with open("README.md", "r" ,encoding= "utf-8") as f:    ## when creating a package it will read all the content present 
+with open("README.md", "r" ,encoding= "utf-8") as f:    ## when creating a package it will read all the content present in the
     long_description = f.read()                         ## README.md file and display it as description for that corresponding package.
 
 
-__version__= "0.0.0"
-
-REPO_NAME = "Deep-Learning-kidney-Disease-classification"
+__version__= "0.0.0"                                         ## this setup.py file is mainly used to create the package
+                                                              
+REPO_NAME = "Deep-Learning-kidney-Disease-classification"          ## and in the package we have the __init__.py file and other modules of code.
 AUTHOR_USER_NAME = "harikrishre7"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = 'tphari18@gmail.com'
